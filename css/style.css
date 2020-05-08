@@ -120,6 +120,7 @@ header {
     color: #2f2d2d;
     font-weight: 500;
     font-size: 15px;
+    border-bottom: 3px solid transparent;
 }
 
 .main-page .main-content .links a:hover, .main-page .main-content .links a:focus{
@@ -159,6 +160,8 @@ header {
     border-radius: 200px;
     text-transform: uppercase;
     transition: 0.5s;
+    font-weight: 700;
+    font-size: 15px;
 }
 
 .main-page .main-content .content .butn:hover{
@@ -385,6 +388,8 @@ header {
     border-radius: 200px;
     text-transform: uppercase;
     transition: 0.5s;
+    font-weight: 700;
+    font-size: 15px;
 }
 
 .calculator .calc .price .butn:hover{
@@ -465,6 +470,8 @@ header {
     border-radius: 200px;
     text-transform: uppercase;
     margin-left: 42%;
+    font-weight: 700;
+    font-size: 15px;
 }
 
 .our-portfolio .butn:hover{
@@ -491,6 +498,10 @@ header {
     padding: 43px;
     margin-right: 10%;
     background-color: #f6f6f6;
+}
+
+.slider .media-img1 img{
+    height: 50px;
 }
 
 .slider .media-body h4{
@@ -529,7 +540,6 @@ header {
 .contacts{
     display: flex;
     margin-top: 100px;
-    margin-bottom: 100px;
 }
 
 .contacts .left-block{
@@ -569,7 +579,7 @@ header {
     font-weight: 700;
     font-size: 20px;
     line-height: 30px;
-    margin-bottom: 60px;
+    margin-bottom: 45px;
 }
 
 .contacts .left-block .butn{
@@ -580,6 +590,8 @@ header {
     padding: 14px 60px;
     border-radius: 200px;
     text-transform: uppercase;
+    font-weight: 700;
+    font-size: 15px;
 }
 
 .contacts .left-block .butn:hover{
@@ -591,7 +603,8 @@ header {
     width: 50%;
     position: relative;
     background-image: url(../img/map.png);
-    background-size: 100% 100%;
+    background-size: cover;
+    background-position-y: bottom;
 }
 
 .contacts .right-block .img-block{
@@ -606,6 +619,12 @@ header {
 .contacts .right-block h2{
     color: #f6f6f6;
     margin-bottom: 30px;
+}
+
+.contacts .right-block p{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 20px;
+    line-height: 23px;
 }
 
 .contacts .right-block .content-wrapper{
@@ -640,6 +659,8 @@ header {
     border-radius: 200px;
     text-transform: uppercase;
     border: 1px solid #fff;
+    font-weight: 700;
+    font-size: 15px;
 }
 
 .contacts .right-block .butn-white:hover{
@@ -649,4 +670,85 @@ header {
 
 .contacts .right-block .content:nth-child(4){
     margin-bottom: 40px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer{
+    background: #262525;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer .logo .logo-icon{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-color: #3b64f5;
+    transform: rotate(45deg);
+    box-shadow: 5px -5px rgba(1,1,1,0.2);
+}
+
+.footer .logo h4{
+    display: inline-block;
+    font-weight: 400;
+    font-size: 15px;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.footer .reserved h4{
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+    opacity: 0.8;
+}
+
+.footer .menu ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .menu ul li{
+    margin-right: 10px;
+}
+
+.footer .menu ul li a{
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.footer .menu ul li a:hover, .footer .menu ul li a:focus{
+    color: #3b64f5;
+    border-bottom: 3px solid #3b64f5;
+    transition: 0.3s;
+}
+
+.footer .phone h4{
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+}
+
+.footer .footer-butn .butn-white{
+    text-decoration: none;
+    color: #fff;
+    padding: 14px 60px;
+    border-radius: 200px;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.footer .footer-butn .butn-white:hover{
+    box-shadow: 5px 5px 20px rgba(255, 255, 255, 1);
+    transition: 0.5s;
 }
