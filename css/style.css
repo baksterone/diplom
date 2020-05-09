@@ -213,7 +213,6 @@ header {
     font-family: 'Ubuntu', sans-serif;
     font-size: 17px;
     line-height: 24px;
-    width: 306px;
     padding-bottom: 50px;
     color: #201f1f;
 }
@@ -361,6 +360,7 @@ header {
 .calculator{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .calculator .calc{
@@ -752,6 +752,7 @@ footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .footer{
@@ -880,7 +881,7 @@ footer{
         width: 40%;
     }
     .main-page .main-content .content {
-        margin: 150px 0 0 50px;
+        margin: 150px 10px 0 50px;
     }
     .main-page .main-content .links{
         display: none;
@@ -906,10 +907,19 @@ footer{
         width: 100%;
         display: flex;
         justify-content: space-around;
+        flex-wrap: wrap;
         margin-bottom: 80px;
     }
     .our-history .promo .office{
         width: 60%;
+    }
+    .calculator .calc{
+        order: 1;
+        width: 100%;
+        background-color: #fff;
+    }
+    .calculator .calc-img{
+        width: 100%;
     }
     .our-portfolio .gallery .gallery-img{
         width: 100%;
@@ -928,6 +938,9 @@ footer{
     .our-portfolio .gallery .gallery-img:nth-child(5){
         width: 100%;
     }
+    .contacts{
+        display: none;
+    }
     .contacts .left-block .content h4{
         margin-bottom: 40px;
     }
@@ -945,5 +958,118 @@ footer{
     }
     .footer .menu ul li a{
         font-size: 10px;
+    }
+}
+
+@media(max-width: 900px){
+    .main-page .main-content .content{
+        margin: 150px 10px 0 20px;
+    }
+    .main-page .main-content .content h1{
+        font-size: 30px;
+    }
+    .main-page .main-content .content p{
+        font-size: 15px;
+    }
+    .main-page .main-content .content .butn{
+        padding: 15px 60px;
+    }
+    .our-history .history{
+        width: 100%;
+        text-align: center;
+         margin-left: 10px;
+        margin-right: 10px;
+    }
+    .our-history .promo .office{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .slider .media{
+        width: 100%;
+    }
+}
+
+@media(max-width: 600px){
+    .main-page .logo-clone{
+        margin-left: 10px;
+    }
+    .burger{
+        right: 30px;
+    }
+    .our-history .promo .item{
+        width: 40%;
+    }
+    .our-portfolio .butn{
+        margin-left: 35%;
+    }
+}
+
+@media(max-width: 520px){
+    .main-page .main-content .content .butn{
+        padding: 15px 40px;
+    }
+    .slider .media-img1{
+        margin-right: 5%;
+    }
+}
+
+@media(max-width: 475px){
+    .main-page .main-content .content{
+        margin: 50px 10px 0 10px;
+    }
+    .main-page .main-content .content h1{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .main-page .main-content .content p{
+        font-size: 12px;
+    }
+    .main-page .phone-number-clone h3{
+        font-size: 12px;
+        margin-left: 20px;
+    }
+    .main-page .main-content .content .butn{
+        padding: 10px 20px;
+    }
+    .burger{
+        right: 10px;
+    }
+    .our-portfolio .butn{
+        margin-left: 25%;
+    }
+    .our-history .promo .icon h4{
+        font-size: 15px;
+    }
+    .our-history .promo .icon p{
+        font-size: 12px;
+    }
+    .our-history .promo .item-img{
+        width: 20%;
+    }
+    .slider .carousel-inner{
+        padding: 0;
+    }
+}
+
+@media(max-width: 370px){
+    .burger{
+        right: 5px;
+        width: 20px;
+    }
+    .main-page .phone-number-clone h3{
+        font-size: 10px;
+        margin-left: 10px;
+    }
+    .our-portfolio h2{
+        margin-left: 50px;
+    }
+    .our-portfolio .butn{
+        margin-left: 17%;
+    }
+    .footer .phone h4{
+        font-size: 10px;
+    }
+    .footer .menu ul li a{
+        font-size: 9px;
     }
 }
