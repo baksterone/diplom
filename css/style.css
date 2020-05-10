@@ -123,28 +123,26 @@ header {
     transition: 0.3s;
 }
 
-.main-page .menu-clone{
+.menu-clone{
     display: none;
-    margin-right: 48px;
-    margin-left: 47px;
 }
 
-.main-page .menu-clone ul{
+.menu-clone ul{
     display: flex;
     flex-direction: column;
 }
 
-.main-page .menu-clone ul li{
-    margin-bottom: 25%;
+.menu-clone ul li{
+    margin-bottom: 5%;
     transition: 0.3s;
 }
 
-.main-page .menu-clone ul li a{
+.menu-clone ul li a{
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 500;
     font-size: 15px;
-    color: #141414;
+    color: #fff;
 }
 
 .menu-clone ul li:hover a, .menu-clone ul li a:focus{
@@ -857,21 +855,20 @@ footer{
         margin: 3px;
         background-color: #2f2d2d;
     }
-    .main-page .menu-clone{
-        display: none;
+    .menu-clone{
         position: absolute;
+        text-align: center;
         right: 0;
         top: 64px;
-        transition: 5s;
-        background-color: rgb(243,129,129);
+        background-color: rgb(0,0,0);
         border-radius: 5px 0 0 5px;
-        height: 250px;
+        height: 210px;
+        width: 100px;
         z-index: 2;
-        opacity: 0.8;
+        opacity: 0.7;
     }
     .menu-clone ul{
         flex-direction: column;
-        line-height: 35px;
         font-weight: bold;
     }
     .show{
