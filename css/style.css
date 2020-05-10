@@ -6,10 +6,6 @@
     list-style-type: none;
 }
 
-body{
-    font-family: 'Oswald', sans-serif;
-}
-
 .wrapper{
     max-width: 1605px;
     width: 100%;
@@ -17,7 +13,6 @@ body{
 }
 
 h2{
-    font-weight: 700;
     font-size: 27px;
     line-height: 40px;
     text-transform: uppercase;
@@ -218,10 +213,8 @@ header {
 .main-page .main-content .content .butn{
     text-decoration: none;
     color: #fff;
-    background-color: #3b64f5;
     box-shadow: 5px 5px 20px rgba(78, 117, 255, 0.35);
     padding: 19px 74px;
-    border-radius: 200px;
     text-transform: uppercase;
     transition: 0.5s;
     font-weight: 700;

@@ -1,0 +1,16 @@
+body {
+  font-family: "Oswald", sans-serif;
+}
+
+h2 {
+  font-weight: 700;
+}
+
+.main-page .main-content .content .butn {
+  border-radius: 200px;
+  -ms-border-radius: 200px;
+  -moz-border-radius: 200px;
+  -webkit-border-radius: 200px;
+  background-color: #3b64f5;
+}
+/*# sourceMappingURL=style1.css.map */
