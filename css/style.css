@@ -247,7 +247,6 @@ header {
 
 .owl-carousel .owl-item img{
     height: 100%;
-    object-fit: cover;
 }
 
 .our-history .promo{
@@ -1030,6 +1029,9 @@ footer{
     }
     .main-page .main-content .content .butn{
         padding: 10px 20px;
+    }
+    .owl-carousel .owl-item img{
+        object-fit: cover;
     }
     .burger{
         right: 10px;
